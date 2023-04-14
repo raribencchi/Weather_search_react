@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import axios from "axios";
 import WeatherSearch from "./WeatherSearch";
-
+import WSearchField from "./WSearchField";
 
 import "./styles.css";
 
@@ -14,7 +14,7 @@ root.render(
     <h1>Weather Search App</h1>
     
     <StrictMode>
-    <WSearchfield />
+      <WSearchField/>
       <WeatherSearch />
           </StrictMode>
           
