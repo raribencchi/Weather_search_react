@@ -40,7 +40,7 @@ function displayForecast(response) {
   forecast.forEach(function(forecastDay, index) {
   if (index < 6) {
       forecastHTML = forecastHTML +
-      `<div className="col-2 P-sm-6 border text-center">
+      <div className="col-2 P-sm-6 border text-center">
       <div className="weather-forecast-date text-center">${formatDay (forecastDay.dt)}</div>
       <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" width="42"/>
       <div className= "weather-forecst-temperatures">
@@ -49,7 +49,7 @@ function displayForecast(response) {
       </div>                   
       </div>
       </div>
-      `;}  
+      ;}  
   });
   forecastHTML = forecastHTML + `</div>`;
   forecastElement.innerHTML = forecastHTML;
