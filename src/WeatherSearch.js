@@ -14,8 +14,16 @@ export default function WeatherSearch() {
       humidity: response.data.main.humidity,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description: response.data.weather[0].description
-    });
-  }
+      });
+
+   function SourceCodePath() {
+    <div>
+    <strong class="mycode">
+      <a href = "https://github.com/raribencchi/Weather_search_react" target="_blank">
+        Open Source Code: </a>  By Rashmi Aribenchi </strong>
+  </div>
+     }  
+    }
 
   function handleSearch(event) {
     event.preventDefault();
