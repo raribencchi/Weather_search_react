@@ -60,7 +60,7 @@ export default function WeatherSearch() {
     </div>
   </div>
     <strong class="mycode">
-      <a href = "https://github.com/raribencchi/WK8-FinalProject" target="_blank">
+      <a href = "https://github.com/raribencchi/Weather_search_react" target="_blank">
         Open Source Code: </a>  By Rashmi Aribenchi </strong>
   </div>
   }
