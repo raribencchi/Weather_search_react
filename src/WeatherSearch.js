@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import ReactAnimatedWeather from "react-animated-weather";
 import FindDateNTemp from "./FindDateNTemp";
-import WeatherIcons.js from "./WeatherIcons";
+import WeatherIcons from "./WeatherIcons";
 
 export default function WeatherSearch() {
 

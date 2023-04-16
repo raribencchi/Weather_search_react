@@ -2,3 +2,130 @@
   font-family: sans-serif;
   text-align: center;
   }
+
+  body {
+    display: flex;
+    font-family: arial,sans-serif;
+    margin-top: 50px;
+    background: url(https://pbs.twimg.com/media/DQ4ebGYU8AAl4FA.jpg:large ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    }
+
+h1  {
+
+    color:white;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-size: 16px;
+    font-weight: 100;
+    
+}
+
+li:first-letter {
+    text-transform: capitalize;
+}
+
+.mycode {
+ display: flex;
+ justify-content:center;
+ font-size: 15px;
+ color: rgb(14, 12, 12);
+
+}
+
+.weather-app-wrapper {
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.weather-app{
+    max-width: 600px;
+    margin: 30px auto;
+    padding:25px;
+    border: 2px solid rgb(73, 72, 72);
+    border-radius: 10px;
+    background-color:linear-gradient(to top, #fff 0%, #6fa0f5 100%);
+   
+
+}
+
+.overview {
+    margin-bottom: 20px;
+}
+
+.weather-temperature img {
+    margin-right: 1px;
+    height:100px;
+    width: 100px;
+  
+}
+
+.weather-temperature strong {
+    color:whitesmoke;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.weather-temperature .units {
+    position: relative;
+    font-size:16px;
+    top:-35px;
+    color:whitesmoke;
+
+}
+
+.weather-temperature .active:hover {
+    color:whitesmoke;
+    cursor: default;
+    text-decoration:none ;
+
+}
+
+.weather-forecast {
+    margin-top: 20px;
+   color:whitesmoke;
+   justify-content: space-between;
+  
+}
+
+.weather-forecast-date strong {
+    font-size: 20px;
+   opacity: 0.10;
+   color:black;
+   justify-content: space-around;
+      }
+
+.weather-forecst-temperatures {
+    font-size: 15px;
+    
+}
+
+.weather-forecaste-temperature-min {
+    opacity: 0.5;
+    color:black;
+}
+
+.active {
+    color:white;
+}
+ 
