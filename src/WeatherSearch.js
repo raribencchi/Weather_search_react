@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ReactAnimatedWeather from "react-animated-weather";
+//import ReactAnimatedWeather from "react-animated-weather";
 //import FindDateNTemp from "./FindDateNTemp";
 //import WeatherIcons from "./WeatherIcons";
 
